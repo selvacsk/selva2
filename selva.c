@@ -10,8 +10,8 @@ if(a<=0)
 if(a==0)
 printf("the given number is zero");
 else
-printf("the given number is positive");
+printf("the given number is negative");
 }
 else
-printf("the given number is negative");
+printf("the given number is positive");
 }
