@@ -1,0 +1,24 @@
+
+#include <stdio.h>
+int main()
+{
+  char c;
+ printf("enter the value");
+  scanf("%c",&c);
+  if(c=='a' || c=='e' || c=='o' || c=='i' || c=='u')
+
+  {
+    printf("%cis a vowels",c);
+  }
+  else
+  {
+  printf("%cis a consonant.",c);
+    
+  }
+  return 0;
+  }
+
+
+
+
+
