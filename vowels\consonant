@@ -4,13 +4,14 @@ int main()
   char c;
  printf("enter the value");
   scanf("%c",&c);
-  if(c=='a'||c=='e'||c=='o'||c=='i'||c=='u')
+  if(c=='a' || c=='e' || c=='o' ||c=='i' || c=='u')
 
   {
-    printf("%cis a vowel.",c);
+    printf("%cis a vowels.",c);
   }
   else
   {
-  printf("%cis a consonant.",c);}
+  printf("%cis a consonant.",c);
+  }
   return 0;
   }
