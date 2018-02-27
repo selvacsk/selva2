@@ -1,13 +1,19 @@
-#include<stdio.h>
-void main()
+
+#include <stdio.h>
+int main()
 {
-int b;
-int cont=0;
-scanf("%d",&b);
-while(b!=0)
-{
-b/=10;
-++cont;
-}
-printf("%d",cont);
+    long long k;
+    int count = 0;
+
+    printf("Enter an integer: ");
+    scanf("%lld", &k);
+
+    while(k != 0)
+    {
+        // k = k/10
+        k /= 10;
+        ++count;
+    }
+
+    printf("Number of digits: %d", count);
 }
