@@ -1,11 +1,14 @@
 #include<stdio.h>
-void main()
+int main(void)
 {
-int j,h,remainder;
-printf("enter the number")
- scanf("%d",&h);
-for(j=0;h!=0;j++)
-h=h/10;
-printf("%d",j);
-
+int a;
+int count=0;
+scanf("%d",&a);
+while(a!=0)
+{
+a/=10;
+++count;
+}
+printf("%d",count);
+return 0;
 }
