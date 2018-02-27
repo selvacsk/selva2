@@ -1,15 +1,16 @@
-
 #include<stdio.h>
-int main(void)
+int main()
 {
-int a;
-int count=0;
-scanf("%d",&a);
-while(a!=0)
+	int c=0, i,n;
+	scanf("%d",&n);
+	i=n;
+while(i!=0)
 {
-a/=10;
-++count;
+
+
+	i=i/10;
+		c++;
 }
-printf("%d",count);
-return 0;
+printf("%d",c);
+	return 0;
 }
